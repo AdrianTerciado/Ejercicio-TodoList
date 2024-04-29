@@ -1,10 +1,17 @@
 import React from 'react'
+import './Item.css'
 
 function Item(props) {
     return (
-      <article>
-        <h3>{props.title}</h3>
-        <button onClick={()=>props.delete()}>Borrar</button> 
+      <article className='tasks'>
+
+        <div className='task-text'>
+          <input type='checkbox' />
+          <p>{props.title}</p>
+        </div>
+        
+        <button className="button-task" onClick={()=>props.delete(props)}>Borrar</button> 
+
       </article>
     )
   }

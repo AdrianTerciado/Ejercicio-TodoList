@@ -1,0 +1,33 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title{
+    color: blue;
+}
+
+.general-buttons{
+    margin: 10px 2px;
+    min-width: 125px;
+}
+
+.form-tasks{
+    width:90%;
+    
+}
+
+.input-task{
+    width: 100%;
+    min-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: grey 10px 5px 5px;
+}
+
+.add-task {
+    font-weight: bolder;
+}
